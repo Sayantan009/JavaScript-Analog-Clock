@@ -12,15 +12,16 @@ body{
     box-sizing: border-box;
 }
 .clock{
-    background: url(./clock.png)no-repeat center center/cover;
+    background: url(./clockMain.png)no-repeat center center/cover;
     height: 25rem;
     width: 25rem;
     border-radius: 50%;
     position: relative;
+    background-color: #fff;
 }
 .hand{
     width: 7rem;
-    height: 4px;
+    height: 2px;
     position: absolute;
     top: 12.5rem;
     left: 12.5rem;
@@ -31,7 +32,7 @@ body{
 }
 .minthand{
     width: 8rem;
-    height: 4px;
+    height: 2px;
     position: absolute;
     top: 12.5rem;
     left: 12.5rem;
@@ -42,7 +43,7 @@ body{
 }
 .sechand{
     width: 9rem;
-    height: 2px;
+    height: 1px;
     position: absolute;
     top: 12.5rem;
     left: 12.5rem;
